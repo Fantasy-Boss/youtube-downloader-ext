@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Downloader",
+    "description": "High Quality YouTube Video and Audio Downloader",
+    "version": "1.0",
+    "author": "Apurbo Kumar",
+    "browser_action": {
+        "default_icon": "assets/icon.png",
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "64": "assets/icon.png",
+        "512": "assets/icon-512.png"
+    },
+    "permissions": ["activeTab"]
+}
